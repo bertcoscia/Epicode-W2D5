@@ -129,3 +129,73 @@ while (numericArray[counter] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const charactersNumber = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      charactersNumber.push("1");
+      break;
+    case "b":
+      charactersNumber.push("2");
+      break;
+    case "c":
+      charactersNumber.push("3");
+      break;
+    case "d":
+      charactersNumber.push("4");
+      break;
+    case "e":
+      charactersNumber.push("5");
+      break;
+    case "f":
+      charactersNumber.push("6");
+      break;
+    case "g":
+      charactersNumber.push("7");
+      break;
+    case "h":
+      charactersNumber.push("8");
+      break;
+    case "i":
+      charactersNumber.push("9");
+      break;
+    case "l":
+      charactersNumber.push("10");
+      break;
+    case "m":
+      charactersNumber.push("11");
+      break;
+    case "n":
+      charactersNumber.push("12");
+      break;
+    case "o":
+      charactersNumber.push("13");
+      break;
+    case "p":
+      charactersNumber.push("14");
+      break;
+    case "q":
+      charactersNumber.push("15");
+      break;
+    case "r":
+      charactersNumber.push("16");
+      break;
+    case "s":
+      charactersNumber.push("17");
+      break;
+    case "t":
+      charactersNumber.push("18");
+      break;
+    case "u":
+      charactersNumber.push("19");
+      break;
+    case "v":
+      charactersNumber.push("20");
+      break;
+    case "z":
+      charactersNumber.push("21");
+      break;
+  }
+}
+console.log(charactersNumber);

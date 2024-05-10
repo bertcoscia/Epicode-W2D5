@@ -12,7 +12,7 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 
-for (i = 0; i < pets.length; i++) {
+for (let i = 0; i < pets.length; i++) {
   console.log(pets[i]);
 }
 
@@ -65,6 +65,11 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
+
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = "AA111BB";
+}
+console.log(cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.

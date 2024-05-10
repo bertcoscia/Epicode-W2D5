@@ -1,1 +1,166 @@
-/* Your styles here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edee;
+    width: 1320px; /* ho impostato una larghezza fissa, avendo un monitor ultrawide almeno in questo modo il risultato non mi cambia al ridmensionare del tab del browser */
+}
+
+header {
+    background-color: #222f3f;
+}
+
+#logoHeader {
+    width: 150px;
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+
+#logoContainer {
+    height: 75px;
+}
+
+nav {
+    background-color: #364757;
+    height: 30px;
+}
+
+ul a {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 1em;
+    line-height: 1.8em;
+}
+
+#holidayGiftCards {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    background-color: #f56600;
+    color: white;
+    height:3vh;
+    line-height: 1.8em;
+    text-align: center;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    background-image:url(../images/bg-image.png);
+    background-size: auto;
+    width: 97%;
+    margin: auto;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 2em;
+    padding-top: 1.2em;
+}
+
+#banner h2 {
+    font-size: 1.5em;
+}
+
+#explore {
+    background-color: white;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+#explore p {
+    margin-left: 3em;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+#firstCard {
+    margin-left: 3em;
+    background-image: url(../images/img_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#secondCard {
+    background-image: url(../images/img_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#thirdCard {
+    background-image: url(../images/img_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#fourthCard {
+    background-image: url(../images/img_4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    height: 350px;
+    width: 20%;
+    display: inline-block;
+    border-radius: 30px;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+}
+
+.heroImageContainer {
+    width: 97%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.heroImage {
+    width: 100%;
+}
+
+
+footer {
+    background-color: #222f3f;
+    text-align: center;
+}
+
+#scrollBackContainer {
+    background-color: #364759;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+.shopLink {
+    color: #085667;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding-left: 0.5em;
+}
+
+.shopLink:visited {
+    color: #085667;
+}
+
+#scrollBlackLink {
+    color: white;
+}
+
+#scrollBlackLink:visited {
+    color: white;
+}
+
+#logoFooter {
+    width: 160px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}

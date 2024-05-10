@@ -27,11 +27,20 @@ console.log(pets);
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-console.log(pets.reverse());
+/* console.log(pets.reverse()); */
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+const firstToLast = function () {
+  let primo = pets[0];
+  pets.splice(0, 1);
+  pets.push(primo);
+  console.log(pets);
+};
+
+firstToLast();
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.

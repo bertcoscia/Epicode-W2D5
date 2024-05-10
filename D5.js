@@ -27,7 +27,8 @@ console.log(pets);
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-/* console.log(pets.reverse()); */
+const petsReversed = pets.reverse();
+console.log(petsReversed);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
@@ -104,7 +105,6 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-console.log(cars);
 for (let i = 0; i < cars.length; i++)
   if (cars[i].color.charAt(0) === "b") {
     console.log("Fizz");

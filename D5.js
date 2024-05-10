@@ -76,6 +76,19 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+cars.push({
+  name: "Audi",
+  model: "R8",
+  color: "yellow",
+  trims: ["sport", "carbon fiber"],
+  licensePlate: "AA111BB",
+});
+
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.splice(-1, 1);
+  console.log("-1 trims", cars[i].trims);
+}
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
